@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Library managament system</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="" rel="icon">
+  <link href="" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+ 
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="/" class="logo d-flex align-items-center">
+        <span class="d-none d-lg-block">Library management system</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="GET" action="search">
+        <input type="text" name="keyword" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+        
+        <li class="nav-item pe-3">
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" >
+            <% if (email!="") {  %>
+              <img src="img/profile-img.jpg" alt="Profile" class="rounded-circle">
+        <%}  %>
+            <span class="d-none d-md-block ps-2"> <%=fname+" "+ lname%> </span>
+          </a><!-- End Profile Iamge Icon -->
+        </li><!-- End Profile Nav -->
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="/">
+          <i class="bi bi-house-door"></i>
+          <span>HOME</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="myaccount">
+          <i class="bi bi-person"></i>
+          <span>My account</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="">
+          <i class="bi bi-heart"></i>
+          <span>Favourites</span>
+        </a>
+      </li><!-- End Favourites Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="">
+         
+          <i class="bi bi-gem"></i>
+          <span>Achievements</span>
+        </a>
+      </li><!-- End Achievements Page Nav -->
+
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-card-list"></i><span>Categories</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="fiction">
+              <i class="bi bi-circle"></i><span>fiction</span>
+            </a>
+          </li>
+          <li>
+            <a href="non-fiction">
+              <i class="bi bi-circle"></i><span>non-fiction</span>
+            </a>
+          </li>
+          <li>
+            <a href="drama">
+              <i class="bi bi-circle"></i><span>drama</span>
+            </a>
+          </li>
+          <li>
+            <a href="poetry">
+              <i class="bi bi-circle"></i><span>poetry</span>
+            </a>
+          </li>
+          <li>
+            <a href="other">
+              <i class="bi bi-circle"></i><span>other</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Categories Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-gear"></i></i><span>Admin panel</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="addabook">
+              <i class="bi bi-circle"></i><span>Add a book</span>
+            </a>
+          </li>
+          <li>
+            <a href="deleteabook">
+              <i class="bi bi-circle"></i><span>Delete a book</span>
+            </a>
+          </li>
+          <li>
+            <a href="editabook">
+              <i class="bi bi-circle"></i><span>Edit book details</span>
+            </a>
+          </li>
+          <li>
+            <a href="bookreturned">
+              <i class="bi bi-circle"></i><span>Book returned</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Admin panel Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="">
+          <i class="bi bi-journal-text"></i>
+          <span>History</span>
+        </a>
+      </li>
+      <!-- End Register Page Nav -->
+
+      <li class="nav-item">
+
+        
+          <% if (email!="") {  %>
+            <a class="nav-link collapsed" href="logout">
+          <i class="bi bi-box-arrow-right"></i>
+            <span> Log out </span>
+        <%} else{  %>
+          <a class="nav-link collapsed" href="login">
+            <i class="bi bi-box-arrow-right"></i>
+          <span > Log in </span>
+      <%}  %>
+          <!-- <span>Log out</span> -->
+        </a>
+      </li>
+      <!-- End Login Page Nav -->
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Categories - <%=category%></h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">Categories</li>
+          <li class="breadcrumb-item active">Books available - <%=category%></li>
+        </ol>
+      </nav>
+      <% if (alert=="success") {  %>
+        <div class="alert alert-success" role="alert" name="alert-success">
+          Reservation completed!
+        </div>
+  <%}  %>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+
+            <% for(var i=0; i < results.length; i++) { %>
+              <div class="col-xxl-3 col-md-6">
+                <div class="card info-card sales-card">
+                  <div class="card-body text-center">
+                <h6><%= results[i].title %></h6>
+                <p><%= results[i].author %></p>
+                <form action="reserve" method="POST">
+                  <label for="Reserve">Reserve from:</label>
+                  <input class="mx-3" type="date" id="birthday" name="reserve" min="<%=new Date().toISOString().split("T")[0] %>"  required>
+                  <!-- this input is needed in order to send data -->
+                  <input name="idbooks" style="display:none;" value="<%= results[i].idbooks%>" >
+                  <button type="submit" class="btn btn-primary mt-3">Reserve</button> 
+                </form>
+              </div>
+            </div>
+          </div><!-- End Card -->
+           <% } %>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!--  JS Files -->
+  <script src="js/bootstrapjs/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
