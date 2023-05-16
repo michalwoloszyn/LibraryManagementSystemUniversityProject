@@ -44,3 +44,31 @@ o	There should be an option to add to the user’s profile with the choices of r
 o	Should display reviews posted by the other users   
 o	Maybe display an average score calculated by using all the user rating inputs  
 o	Should display other books if it is part of a series and have links to their pages in the database  
+## Lo-fi prototype
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/ad83e164-eefe-402e-bcc3-b9bddd8e4082)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/3c5d59e1-0a64-4075-b3b8-a2ecd15bdace)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/35723ec0-1828-4978-9309-624f8cc68ac7)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/37828ad3-4825-423f-bdbb-f5fe75ca540b)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/3bee619f-30ec-4a4e-8df8-548f1b8798d8)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/b378df57-c015-44ad-b4d4-2342f2824145)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/2dfc6d93-ab36-4288-8194-d201a2763525)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/91ef2df1-dc3a-4e8e-b82c-20385e60adcf)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/ebb1de29-d473-4ff4-9ab0-162261b10e21)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/5d7dea46-210a-4f34-b1a5-3be3b7818114)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/b820fa8a-68af-4661-8727-0a50c54a984a)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/bf0a6e9a-8703-4c89-9e0d-6abb74e7edcf)
+
+## Hi-fi prototype
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/9ee08d3a-3df7-4fa0-8dff-42b8e5c20204)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/dd3d7af3-a34d-4676-aca3-21b12c3c14a3)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/9902f564-e2c6-49b4-a9d4-79549782a86d)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/12b5b6b2-c4c3-44df-8369-670064ce7327)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/b2c14298-caae-4c58-9c14-6662e34fd6a1)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/81f86506-4622-429c-8b6b-f6b8b957c9aa)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/208099f9-584b-4fb4-909f-2b3abc24683b)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/1612770d-a497-49bc-b8b1-12d8c8cefe02)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/e6e23b1e-5ed5-4a40-9313-b17346445034)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/70b4e5a4-d688-464e-9ce6-fd37940a14a2)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/61494c12-10ac-4b53-bb81-05668558984f)
+![image](https://github.com/michalwoloszyn/LibraryManagementSystemUniversityProject/assets/78374996/58c4d372-ae9f-4827-b678-a7fc5011a775)
+
