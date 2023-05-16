@@ -14,10 +14,10 @@ Collaborated on this project with other students during second year at the unive
 ## Specification  
 
 •	User Login – It will be used by the user to log into the system.  
-o		It should have the option to enter name and password  
-o		It should take this information and compare them to already existing data in the system   
-o		The user will only be able to proceed if it is correct  
-o		There should be an option to logout after the user finishes using the system  
+	o	It should have the option to enter name and password  
+	o	It should take this information and compare them to already existing data in the system   
+	o	The user will only be able to proceed if it is correct  
+	o	There should be an option to logout after the user finishes using the system  
 
 •	Register user – This should be done by all the user to create an account.   
 o	It should request the user’s name and a password   
