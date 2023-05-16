@@ -10,12 +10,15 @@ Collaborated on this project with other students during second year at the unive
 	<code><img height="50" src="https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png" alt="Express" title="Express"/></code>
 	<code><img height="50" src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png" alt="MySQL" title="MySQL"/></code>
 </div>
-##Specification  
+
+## Specification  
+
 •	User Login – It will be used by the user to log into the system.  
-o	It should have the option to enter name and password  
-o	It should take this information and compare them to already existing data in the system   
-o	The user will only be able to proceed if it is correct  
-o	There should be an option to logout after the user finishes using the system  
+o		It should have the option to enter name and password  
+o		It should take this information and compare them to already existing data in the system   
+o		The user will only be able to proceed if it is correct  
+o		There should be an option to logout after the user finishes using the system  
+
 •	Register user – This should be done by all the user to create an account.   
 o	It should request the user’s name and a password   
 o	If all the necessary criteria are meet this information will be saved to the database  
